@@ -14,3 +14,10 @@ join Employee as e
 on c.company_code = e.company_code
 group by c.company_code, c.founder
 order by c.company_code;
+
+
+/*
+Sample Output:
+
+
+*/
